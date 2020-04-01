@@ -4,3 +4,6 @@ nav {
 #progress {
     display: none;
 }
+.row {
+    display: flex;
+}
