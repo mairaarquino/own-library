@@ -31,7 +31,7 @@
         }
 
         public function find() {
-            $sql = "SELECT * FROM books LIMIT 15";
+            $sql = "SELECT * FROM books ORDER BY id DESC LIMIT 3 ";
 
             return $this->conn->query($sql);
         }
